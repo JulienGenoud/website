@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html
+    lang="en"
+    dir="ltr"
+    class="filament js-focus-visible min-h-screen antialiased"
+>
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        
+        
+        <title>Login -  Filament Demo</title>
+
+        
+
+        <style>
+            [x-cloak=""], [x-cloak="x-cloak"], [x-cloak="1"] { display: none !important; }
+            @media (max-width: 1023px) { [x-cloak="-lg"] { display: none !important; } }
+            @media (min-width: 1024px) { [x-cloak="lg"] { display: none !important; } }
+            :root {
+                --sidebar-width: 20rem;
+                --collapsed-sidebar-width: 5.4rem;
+            }
+        </style>
+
+        <style >[wire\:loading], [wire\:loading\.delay], [wire\:loading\.inline-block], [wire\:loading\.inline], [wire\:loading\.block], [wire\:loading\.flex], [wire\:loading\.table], [wire\:loading\.grid], [wire\:loading\.inline-flex] {display: none;}[wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short], [wire\:loading\.delay\.long], [wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest] {display:none;}[wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}input:-webkit-autofill, select:-webkit-autofill, textarea:-webkit-autofill {animation-duration: 50000s;animation-name: livewireautofill;}@keyframes livewireautofill { from {} }</style>
+
+        
+        
+        <link rel="stylesheet" href="https://demo.filamentphp.com/filament/assets/app.css?id=a8eb66d7feb8e7683bfff3ecf7490be2" />
+
+        
+
+                    <script>
+                const theme = localStorage.getItem('theme')
+
+                if ((theme === 'dark') || (! theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                    document.documentElement.classList.add('dark')
+                }
+            </script>
+        
+        
+    </head>
+
+    <body class="filament-body min-h-screen bg-gray-100 text-gray-900 overflow-y-auto dark:text-gray-100 dark:bg-gray-900">
+        
+
+        <div class="filament-login-page flex items-center justify-center min-h-screen bg-gray-100 text-gray-900 py-12 dark:bg-gray-900 dark:text-white">
+            <div class="p-8 space-y-4 bg-white/50 backdrop-blur-xl border border-gray-200 shadow-2xl rounded-2xl relative dark:bg-gray-900/50 dark:border-gray-700">
+                <div class="flex justify-center w-full">
+                    
+                </div>
+
+                                    <h2 class="text-2xl font-bold tracking-tight text-center">
+                        Soon...
+                    </h2>
+                
+                <div >
+    <div class="col-span-1" wire:key="PeoDvTcEAl7Y2t07Sl9q.email.Filament\Forms\Components\TextInput">
+    <div class="filament-forms-field-wrapper">
+    
+    <div class="space-y-2">
+                    <div class="flex items-center justify-between space-x-2 rtl:space-x-reverse">
+                                    <label class="filament-forms-field-wrapper-label inline-flex items-center space-x-3 rtl:space-x-reverse" for="email">
+    
+
+
+
+    
+</label>
+                
+                            </div>
+        
+        <div class="filament-forms-text-input-component flex items-center space-x-2 rtl:space-x-reverse group">
+        
+        
+        
+        <div class="flex-1">
+            
+        </div>
+
+        
+        
+            </div>
+
+            
+            </div>
+</div>
+</div>
+            
+    
+    <div class="space-y-2">
+                    <div class="flex items-center justify-between space-x-2 rtl:space-x-reverse">
+                                    <label class="filament-forms-field-wrapper-label inline-flex items-center space-x-3 rtl:space-x-reverse" for="password">
+    
+
+
+            </span>
+            </span>
+
+    
+</label>
+                
+                            </div>
+        
+
+
+            
+            </div>
+</div>
+</div>
+            
+        <div class="col-span-1" wire:key="PeoDvTcEAl7Y2t07Sl9q.remember.Filament\Forms\Components\Checkbox">
+    <div class="filament-forms-field-wrapper">
+    
+    <div class="space-y-2">
+                    <div class="flex items-center justify-between space-x-2 rtl:space-x-reverse">
+                                    <label class="filament-forms-field-wrapper-label inline-flex items-center space-x-3 rtl:space-x-reverse" for="remember">
+    
+
+
+    
+</label>
+                
+                            </div>
+        
+        
+
+            
+            </div>
+</div>
+</div>
+</div>
+
+
+   
+</form>
+
+<!-- Livewire Component wire-end:PeoDvTcEAl7Y2t07Sl9q -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div wire:id="ojnRsUdR56rmhiIqxmzz" wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;ojnRsUdR56rmhiIqxmzz&quot;,&quot;name&quot;:&quot;notifications&quot;,&quot;locale&quot;:&quot;en&quot;,&quot;path&quot;:&quot;login&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;v&quot;:&quot;acj&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[&quot;notificationSent&quot;,&quot;notificationsSent&quot;,&quot;notificationClosed&quot;]},&quot;serverMemo&quot;:{&quot;children&quot;:[],&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;7b6549b0&quot;,&quot;data&quot;:{&quot;isFilamentNotificationsComponent&quot;:true,&quot;notifications&quot;:[]},&quot;dataMeta&quot;:{&quot;wireables&quot;:[&quot;notifications&quot;]},&quot;checksum&quot;:&quot;e0a1e80f7c51916c8488b6ecc75c4295f8878d0b9a86a0ff9bb79637967ec9ef&quot;}}">
+    <div
+        class="filament-notifications pointer-events-none fixed inset-4 z-50 mx-auto flex gap-3 items-end flex-col-reverse justify-end"
+        role="status"
+    >
+            </div>
+
+    
+    </div>
+
+<!-- Livewire Component wire-end:ojnRsUdR56rmhiIqxmzz -->
+
+        
+
+
+        
+
+        
+        
+        
+        
+
+        
+    </body>
+</html>
