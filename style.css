@@ -1,6 +1,9 @@
 h1{
     text-align: center;
-    color: white;
+    /* color: linear-gradient(to bottom right,#FF7777,#2683F5,#00DAA2) no-repeat; */
+    background: -webkit-linear-gradient(45deg, #FF7777,#2683F5,#00DAA2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 html{
     height: 100%;
@@ -8,7 +11,7 @@ html{
 }
 body{
     margin: 0px;
-    background: linear-gradient(to bottom right,#2b6654,#bfd006) no-repeat;
+    background: #1F1F21;
     height: 100%;
     width: 100%;
 }
